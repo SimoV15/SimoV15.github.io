@@ -42,7 +42,7 @@ defaultContentLanguage = "en"
   lastmod = ["lastmod", ":git", ":fileModTime", ":default"]
 
 [permalinks]
-  posts = "/:title/"
+  "/" = "/:title/"
 
 [markup.goldmark.renderer]
   # Allow HTML in Markdown
