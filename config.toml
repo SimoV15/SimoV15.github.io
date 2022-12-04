@@ -5,7 +5,7 @@ languageCode = "it-it"
 enableInlineShortcodes = true
 pygmentsCodeFences = true
 pygmentsUseClasses = true
-enableGitInfo = false
+enableGitInfo = true
 defaultContentLanguage = "en"
 
 [languages]
@@ -48,5 +48,5 @@ defaultContentLanguage = "en"
   # Allow HTML in Markdown
   unsafe = true
 
-  [markup.tableOfContents]
-    ordered = true
+[markup.tableOfContents]
+  ordered = true
