@@ -1,4 +1,4 @@
-baseURL = "https://SimoV15.github.io"
+baseURL = "https://sv15.xyz"
 title = "Website Name"
 theme = "svugo"
 languageCode = "it-it"
@@ -30,11 +30,11 @@ defaultContentLanguage = "en"
 
 [params.social]
   [params.social.GitHub]
-    title = "Link 1"
+    title = "GitHub"
     url = "https://github.com/SimoV15"
     weight = 0
   [params.social.Mastodon]
-    title = "Link 2"
+    title = "Mastodon"
     url = "https://mastodon.uno/@sv"
     weight = 1
 
