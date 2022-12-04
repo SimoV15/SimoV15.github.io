@@ -1,0 +1,3 @@
+[submodule "themes/svugo"]
+	path = themes/svugo
+	url = https://github.com/SimoV15/svugo.git

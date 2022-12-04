@@ -1,0 +1,52 @@
+baseURL = "https://SimoV15.github.io"
+title = "Website Name"
+theme = "svugo"
+languageCode = "it-it"
+enableInlineShortcodes = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+enableGitInfo = false
+defaultContentLanguage = "en"
+
+[languages]
+  [languages.it]
+    languageName = "Italiano"
+    weight = 1
+    lastmod = "Ultima modifica:"
+  [languages.en]
+    languageName = "English"
+    weight = 2
+    lastmod = "Updated:"
+
+[author]
+  name = "Your Name Here"
+
+[params]
+  description = "Your site description"
+  copyright = "&copy; 2021 -- {Year} Your Name"
+  license = "Questo articolo è distribuito con licenza <a rel='license' href='http://creativecommons.org/licenses/by/4.0/'>CC BY-NC 4.0</a>."
+  rss = "RSS"
+  highlight = true
+
+[params.social]
+  [params.social.GitHub]
+    title = "Link 1"
+    url = "https://github.com/SimoV15"
+    weight = 0
+  [params.social.Mastodon]
+    title = "Link 2"
+    url = "https://mastodon.uno/@sv"
+    weight = 1
+
+[frontmatter]
+  lastmod = ["lastmod", ":git", ":fileModTime", ":default"]
+
+[permalinks]
+  posts = "/:title/"
+
+[markup.goldmark.renderer]
+  # Allow HTML in Markdown
+  unsafe = true
+
+  [markup.tableOfContents]
+    ordered = true
