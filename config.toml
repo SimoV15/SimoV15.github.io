@@ -1,7 +1,7 @@
 baseURL = "https://sv15.xyz"
-title = "Website Name"
+title = "SV15's Webpage"
 theme = "svugo"
-languageCode = "it-it"
+languageCode = "en-US"
 enableInlineShortcodes = true
 pygmentsCodeFences = true
 pygmentsUseClasses = true
@@ -19,12 +19,10 @@ defaultContentLanguage = "en"
     lastmod = "Updated:"
 
 [author]
-  name = "Your Name Here"
+  name = "SV15"
 
 [params]
-  description = "Your site description"
-  copyright = "&copy; 2021 -- {Year} Your Name"
-  license = "Questo articolo è distribuito con licenza <a rel='license' href='http://creativecommons.org/licenses/by/4.0/'>CC BY-NC 4.0</a>."
+  description = "SV15's blog"
   rss = "RSS"
   highlight = true
 
