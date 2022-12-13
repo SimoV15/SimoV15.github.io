@@ -1,7 +1,7 @@
 body {
   --color-bg: #ffffff;
   --color-bg-pre: #f6f8fa;
-  --color-bg-code: rgba(175,184,193,0.2);
+  --color-bg-code: rgba(175, 184, 193, 0.2);
   --color-fg: #24292f;
   --color-fg-accent: #0969da;
   --color-fg-blockquote: #57606a;
@@ -12,7 +12,7 @@ body {
   body {
     --color-bg: #0d1117;
     --color-bg-pre: #161b22;
-    --color-bg-code: rgba(110,118,129,0.4);
+    --color-bg-code: rgba(110, 118, 129, 0.4);
     --color-fg: #c9d1d9;
     --color-fg-accent: #58a6ff;
     --color-fg-blockquote: #8b949e;
@@ -23,7 +23,8 @@ body {
 body {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   max-width: 800px;
   margin: auto;
   padding: 1em;
@@ -59,21 +60,19 @@ footer a:hover {
 
 hr {
   border-style: solid;
-  color: var(--color-border)
+  color: var(--color-border);
 }
 
 .date {
   font-weight: normal;
-
 }
 
 h1 a {
-  color: var(--color-fg)
+  color: var(--color-fg);
 }
 
 /* code */
-
-pre>code {
+pre > code {
   padding: 12px;
   display: block;
   overflow-x: auto;
@@ -82,7 +81,8 @@ pre>code {
   background-color: var(--color-bg-pre);
 }
 
-code, kbd>kbd {
+code,
+kbd > kbd {
   border-radius: 6px;
   padding: 3px 5px;
   margin: 3px;
@@ -90,12 +90,14 @@ code, kbd>kbd {
   background-color: var(--color-bg-code);
 }
 
-kbd>kbd {
-display: inline-block;
+kbd > kbd {
+  display: inline-block;
 }
 
 /* misc */
-img, iframe, video {
+img,
+iframe,
+video {
   max-width: 100%;
 }
 
@@ -107,7 +109,7 @@ blockquote {
   margin: 0;
   padding: 0 1em;
   color: var(--color-fg-blockquote);
-  border-left: .25em solid var(--color-border);
+  border-left: 0.25em solid var(--color-border);
   background-color: transparent;
 }
 
@@ -116,14 +118,20 @@ table {
   border-collapse: collapse;
 }
 
-thead, th, td, tr {
+thead,
+th,
+td,
+tr {
   border: 1px solid var(--color-border);
 }
 
-th, td {
+th,
+td {
   padding: 5px;
 }
 
-thead, tfoot, tr:nth-child(even) {
+thead,
+tfoot,
+tr:nth-child(even) {
   background: var(--color-bg-pre);
 }
